@@ -1,5 +1,5 @@
 {
-    "name": "by/cookie-set",
+    "name": "webtrend/cookie-set",
     "description": "A plugin that stores Google Analytics utm_parameter query string to a client cookie.",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-          "by\\cookieset\\": "src/"
+          "webtrend\\cookieset\\": "src/"
         }
     },
     "extra": {
@@ -35,6 +35,6 @@
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://github.com/webtrend/cookieset/blob/master/CHANGELOG.md",
-        "class": "by\\cookieset\\CookieSet"
+        "class": "webtrend\\cookieset\\CookieSet"
     }
 }

@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require bhashkar007/cookie-set
+        composer require webtrend/cookie-set
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Cookie Set.
 
@@ -40,4 +40,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [Bhashkar Yadav](http://sidd3.com)
+Brought to you by Webtrend

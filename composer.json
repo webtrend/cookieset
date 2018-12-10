@@ -11,14 +11,14 @@
         "cookie set"
     ],
     "support": {
-        "docs": "https://github.com/bhashkar007/cookie-set/blob/master/README.md",
-        "issues": "https://github.com/bhashkar007/cookie-set/issues"
+        "docs": "https://github.com/webtrend/cookieset/blob/master/README.md",
+        "issues": "https://github.com/webtrend/cookieset/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Bhashkar Yadav",
-            "homepage": "http://sidd3.com"
+            "name": "Webtrend",
+            "homepage": "http://"
         }
     ],
     "require": {
@@ -34,7 +34,7 @@
         "handle": "cookie-set",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/bhashkar007/cookie-set/master/CHANGELOG.md",
+        "changelogUrl": "https://github.com/webtrend/cookieset/blob/master/CHANGELOG.md",
         "class": "by\\cookieset\\CookieSet"
     }
 }

@@ -1,0 +1,40 @@
+{
+    "name": "by/cookie-set",
+    "description": "A plugin that stores Google Analytics utm_parameter query string to a client cookie.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "cookie set"
+    ],
+    "support": {
+        "docs": "https://github.com/bhashkar007/cookie-set/blob/master/README.md",
+        "issues": "https://github.com/bhashkar007/cookie-set/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhashkar Yadav",
+            "homepage": "http://sidd3.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "by\\cookieset\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Cookie Set",
+        "handle": "cookie-set",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/bhashkar007/cookie-set/master/CHANGELOG.md",
+        "class": "by\\cookieset\\CookieSet"
+    }
+}

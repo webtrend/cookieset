@@ -4,13 +4,13 @@
  *
  * A plugin that stores Google Analytics utm_parameter query string to a client cookie.
  *
- * @link      http://sidd3.com
+ * @link      https://google.com
  * @copyright Copyright (c) 2018 Bhashkar Yadav
  */
 
-namespace by\cookieset;
+namespace webtrend\cookieset;
 
-use by\cookieset\variables\CookieSetVariable;
+use webtrend\cookieset\variables\CookieSetVariable;
 
 use Craft;
 use craft\base\Plugin;

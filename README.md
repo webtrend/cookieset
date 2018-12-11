@@ -22,21 +22,10 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Cookie Set.
 
-## Cookie Set Overview
-
--Insert text here-
-
-## Configuring Cookie Set
-
--Insert text here-
 
 ## Using Cookie Set
 
--Insert text here-
-
-## Cookie Set Roadmap
-
-Some things to do, and ideas for potential features:
+{% hook 'SetMyCookies' %}
 
 * Release it
 

@@ -25,8 +25,6 @@ To install the plugin, follow these instructions.
 
 ## Using Cookie Set
 
-{% hook 'SetMyCookies' %}
+	{% hook 'SetMyCookies' %}
 
-* Release it
-
-Brought to you by Webtrend
+Brought to you by **Webtrend**

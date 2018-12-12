@@ -2,7 +2,7 @@
 
 A plugin that stores Google Analytics utm_parameter query string to a client cookie.
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/logo.png)
 
 ## Requirements
 
@@ -25,6 +25,6 @@ To install the plugin, follow these instructions.
 
 ## Using Cookie Set
 
-	{% hook 'SetMyCookies' %}
+		{% hook 'SetMyCookies' %}
 
 Brought to you by **Webtrend**

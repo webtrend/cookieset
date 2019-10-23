@@ -101,6 +101,8 @@ class CookieSet extends Plugin
             {
                 $domain = null;
             }
+
+
             if (!$expire) {
                 $expire = time() + 60*60*24*365*2;
             }

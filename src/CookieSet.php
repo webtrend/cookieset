@@ -25,9 +25,12 @@ use yii\base\Event;
  *
  * @author    Webtrend
  * @package   CookieSet
- * @since     1.0.1
+ * @since     1.0.4
  *
  */
+
+
+
 class CookieSet extends Plugin
 {
     // Static Properties
@@ -44,7 +47,7 @@ class CookieSet extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.1';
+    public $schemaVersion = '1.0.4';
 
     // Public Methods
     // =========================================================================
@@ -89,7 +92,7 @@ class CookieSet extends Plugin
         Craft::$app->view->hook('SetMyCookies', function(&$context, $cookieName = 'tts', $expire = null, $path = '/', $domain = null, $secure = false, $httpOnly = false)
         {
             $host_names = explode(".", $_SERVER['HTTP_HOST']);
-            if (count($host_names) == 3 )
+            if (count($host_names) == 2 )
             {
                 $domain = $host_names[count($host_names)-2] . "." . $host_names[count($host_names)-1];
             }

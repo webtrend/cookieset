@@ -2,6 +2,7 @@
     "name": "webtrend/cookie-set",
     "description": "A plugin that stores Google Analytics utm_parameter query string to a client cookies",
     "type": "craft-plugin",
+    "version": "1.0.4",
     "keywords": [
         "craft",
         "cms",

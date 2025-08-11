@@ -6,7 +6,7 @@ A plugin that stores Google Analytics utm_parameter query string to a client coo
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ## Installation
 

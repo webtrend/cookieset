@@ -47,7 +47,7 @@ class CookieSet extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.4';
+    public string $schemaVersion = '1.0.4';
 
     // Public Methods
     // =========================================================================
